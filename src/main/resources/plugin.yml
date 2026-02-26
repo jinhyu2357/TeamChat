@@ -1,0 +1,8 @@
+name: ChatRange
+version: '${version}'
+main: org.example.jinhhyu.chatRange.ChatRange
+api-version: '1.21'
+commands:
+  t:
+    description: Team chat and team management
+    usage: /t <invite|join|leave|chat|message>

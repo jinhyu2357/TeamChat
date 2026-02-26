@@ -1,0 +1,4 @@
+name: ChatRange
+version: '1.0'
+main: org.example.jinhhyu.chatRange.ChatRange
+api-version: '1.21'

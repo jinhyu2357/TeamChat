@@ -1,1 +1,1 @@
-rootProject.name = "ChatRange"
+rootProject.name = "TeamChat"

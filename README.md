@@ -1,11 +1,11 @@
-# TeamChat (ChatRange)
+# TeamChat
 
 Paper 서버(마인크래프트 1.21 계열)용 Kotlin 플러그인 프로젝트입니다.  
 
 ## 프로젝트 개요
 
-- 플러그인 이름: `ChatRange`
-- 메인 클래스: `org.example.jinhhyu.chatRange.ChatRange`
+- 플러그인 이름: `TeamChat`
+- 메인 클래스: `org.example.jinhhyu.teamchat.TeamChat`
 - 대상 API 버전: `1.21`
 - 언어/런타임: Kotlin + JVM(Java 21)
 - 빌드 도구: Gradle(Kotlin DSL)

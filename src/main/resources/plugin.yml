@@ -1,6 +1,6 @@
-name: ChatRange
+name: TeamChat
 version: '${version}'
-main: org.example.jinhhyu.chatRange.ChatRange
+main: org.example.jinhhyu.teamchat.TeamChat
 api-version: '1.21'
 commands:
   t:

@@ -26,6 +26,14 @@ tasks {
         // Your plugin's jar (or shadowJar if present) will be used automatically.
         minecraftVersion("1.21")
     }
+
+    shadowJar {
+        archiveClassifier.set("")
+    }
+
+    jar {
+        enabled = false
+    }
 }
 
 val targetJavaVersion = 21
@@ -41,7 +49,7 @@ tasks.processResources {
     val props = mapOf("version" to version)
     inputs.properties(props)
     filteringCharset = "UTF-8"
-    filesMatching("paper-plugin.yml") {
+    filesMatching("plugin.yml") {
         expand(props)
     }
 }
